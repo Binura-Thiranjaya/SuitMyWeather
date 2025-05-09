@@ -108,7 +108,7 @@ $(document).ready(function () {
                     let shortPhrase = $(".short-phrase");
                     function importShortPhrase() {
                         shortPhrase.text(data.DailyForecasts[0].Day.ShortPhrase)
-                        console.log(data.DailyForecasts[0].Day.ShortPhrase);
+                        //console.log(data.DailyForecasts[0].Day.ShortPhrase);
                     }
                     importShortPhrase();
 
